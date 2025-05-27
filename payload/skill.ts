@@ -23,7 +23,7 @@ const programmingLanguages: ISkill.Skill = {
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
+/*const kernelDevelopment: ISkill.Skill = {
   category: 'Kernel Development',
   items: [
     {
@@ -43,9 +43,9 @@ const kernelDevelopment: ISkill.Skill = {
       level: 2,
     },
   ],
-};
+};*/
 
-const virtualization: ISkill.Skill = {
+/*const virtualization: ISkill.Skill = {
   category: 'Virtualization',
   items: [
     {
@@ -69,9 +69,9 @@ const virtualization: ISkill.Skill = {
       level: 1,
     },
   ],
-};
+};*/
 
-const automation: ISkill.Skill = {
+/*const automation: ISkill.Skill = {
   category: 'Automation',
   items: [
     {
@@ -99,9 +99,9 @@ const automation: ISkill.Skill = {
       level: 1,
     },
   ],
-};
+};*/
 
-const networkSecurity: ISkill.Skill = {
+/*const networkSecurity: ISkill.Skill = {
   category: 'Network Security',
   items: [
     {
@@ -129,7 +129,7 @@ const networkSecurity: ISkill.Skill = {
       level: 1,
     },
   ],
-};
+};*/
 
 const misc: ISkill.Skill = {
   category: 'Misc',
