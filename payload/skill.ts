@@ -5,26 +5,19 @@ const programmingLanguages: ISkill.Skill = {
   items: [
     {
       title: 'C',
-      level: 3,
+      level: 2,
     },
     {
-      title: 'Shell Scripting',
-      level: 3,
+      title: 'C++',
+      level: 2,
     },
     {
       title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
       level: 2,
     },
+    
     {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
+      title: 'Java',
       level: 1,
     },
   ],
@@ -142,22 +135,7 @@ const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
-    },
-    {
-      title: "Rubik's Cube Solving",
-    },
-    {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
+      title: 'Solving Backjun',
     },
   ],
 };
@@ -166,10 +144,10 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
+    //kernelDevelopment,
+    //virtualization,
+    //automation,
+    //networkSecurity,
     misc,
   ],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
