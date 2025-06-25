@@ -13,7 +13,7 @@ const programmingLanguages: ISkill.Skill = {
     },
     {
       title: 'Python',
-      level: 2,
+      level: 1,
     },
     
     {
